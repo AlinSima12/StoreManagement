@@ -1,0 +1,519 @@
+﻿  main.cpp
+  repo_store.cpp
+  srv_store.cpp
+  ui.cpp
+  undo.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  magazin.vcxproj -> C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug\magazin.exe
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\produs.h(34): warning C26432: If you define or delete any default operation in the type 'class Product', define or delete them all (c.21).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(20): warning C26440: Function 'Cos::empty_cos' can be declared 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(35): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(45): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(46): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(47): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(48): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(45): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(46): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(47): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(48): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(55): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(56): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(57): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(58): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(55): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(56): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(57): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(58): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(53): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(60): warning C26823: Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(60): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\cos.cpp(60): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(27): warning C26432: If you define or delete any default operation in the type 'class RepoAbstract', define or delete them all (c.21).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(76): warning C26440: Function 'Repository::emptyRepo' can be declared 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(96): warning C26440: Function 'RepositoryLab::get_prob' can be declared 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(100): warning C26433: Function 'RepositoryLab::add_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(101): warning C26496: The variable 'lower_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(102): warning C26496: The variable 'upper_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(105): warning C26496: The variable 'a_random_double' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(108): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(117): warning C26433: Function 'RepositoryLab::del_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(118): warning C26496: The variable 'lower_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(119): warning C26496: The variable 'upper_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(122): warning C26496: The variable 'a_random_double' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(125): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(137): warning C26433: Function 'RepositoryLab::modify_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(138): warning C26496: The variable 'lower_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(139): warning C26496: The variable 'upper_bound' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(142): warning C26496: The variable 'a_random_double' does not change after construction, mark it as const (con.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(145): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(152): warning C26433: Function 'RepositoryLab::get_produse_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(160): warning C26433: Function 'RepositoryLab::search_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(164): warning C26440: Function 'RepositoryLab::emptyRepo' can be declared 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(177): warning C26433: Function 'FileRepository::add_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(182): warning C26433: Function 'FileRepository::del_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(183): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(183): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(186): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(187): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(191): warning C26433: Function 'FileRepository::modify_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(192): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(192): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(195): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(203): warning C26433: Function 'FileRepository::get_produse_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.h(214): warning C26434: Function 'FileRepository::emptyRepo' hides a non-virtual function 'Repository::emptyRepo'.
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(21): warning C26433: Function 'AddUndoAction::do_undo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(21): warning C26436: The type 'class AddUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(36): warning C26433: Function 'ModUndoAction::do_undo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(36): warning C26436: The type 'class ModUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(49): warning C26433: Function 'RemoveUndoAction::do_undo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(49): warning C26436: The type 'class RemoveUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(58): warning C26455: Default constructor should not throw. Declare it 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(62): warning C26433: Function 'ComplexUndoAction::do_undo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(62): warning C26436: The type 'class ComplexUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.h(64): warning C26823: Dereferencing a possibly null pointer '(*result.top)' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\main.cpp(29): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\main.cpp(32): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\main.cpp(33): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\produs.h(19): warning C26495: Variable 'Product::price' is uninitialized. Always initialize a member variable (type.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\produs.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\produs.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\produs.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(15): warning C26433: Function 'Repository::add_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(19): warning C26433: Function 'Repository::del_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(20): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(20): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(23): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(24): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(27): warning C26433: Function 'Repository::modify_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(28): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(28): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(31): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(38): warning C26433: Function 'Repository::get_produse_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(42): warning C26433: Function 'Repository::search_repo' should be marked with 'override' (c.128).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(43): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(46): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(78): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(78): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(78): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(92): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(107): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(108): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(109): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(110): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(107): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(108): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(109): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(110): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(104): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(105): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(116): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(117): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(118): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(119): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(125): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(126): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(127): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(128): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(116): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(117): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(118): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(119): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(125): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(126): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(127): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(128): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(114): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(114): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(114): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(114): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(121): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(121): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(121): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(136): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(137): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(138): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(139): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(145): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(146): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(147): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(148): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(136): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(137): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(138): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(139): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(145): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(146): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(147): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(148): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(133): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(134): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(134): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(134): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(141): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(141): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(141): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(155): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(156): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(157): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(158): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(155): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(156): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(157): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(158): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(153): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(153): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(153): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(153): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(160): warning C26823: Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(160): warning C26823: Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(160): warning C26823: Dereferencing a possibly null pointer 'allotemp.14' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(163): warning C26823: Dereferencing a possibly null pointer 'allotemp.15' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(163): warning C26823: Dereferencing a possibly null pointer 'allotemp.16' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\repo_store.cpp(163): warning C26823: Dereferencing a possibly null pointer 'allotemp.17' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(35): warning C26440: Function 'cmp_price' can be declared 'noexcept' (f.6).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(44): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(40): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(52): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(52): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(54): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(66): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(66): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(68): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(82): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(91): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(88): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(88): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(88): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(104): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(110): warning C26823: Dereferencing a possibly null pointer '<begin>$L0' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(119): warning C26823: Dereferencing a possibly null pointer '<begin>$L1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(128): warning C26823: Dereferencing a possibly null pointer '<begin>$L2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(142): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(144): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(144): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(148): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(148): warning C26823: Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(156): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(156): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(162): warning C26823: Dereferencing a possibly null pointer 'msg' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(177): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(177): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(214): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(215): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(216): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(217): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(219): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(220): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(221): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(222): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(214): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(215): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(216): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(217): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(219): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(220): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(221): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(222): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(208): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(211): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(232): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(233): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(234): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(235): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(237): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(238): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(239): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(240): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(232): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(233): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(234): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(235): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(237): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(238): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(239): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(240): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(227): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(230): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(249): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(250): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(251): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(252): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(254): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(255): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(256): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(257): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(249): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(250): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(251): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(252): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(254): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(255): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(256): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(257): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(245): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(247): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(261): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(263): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(265): warning C26823: Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(265): warning C26823: Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(265): warning C26823: Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(289): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(290): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(291): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(292): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(295): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(296): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(297): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(298): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(301): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(302): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(303): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(304): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(289): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(290): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(291): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(292): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(295): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(296): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(297): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(298): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(301): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(302): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(303): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(304): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(284): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(286): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(314): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(315): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(316): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(317): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(320): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(321): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(322): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(323): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(314): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(315): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(316): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(317): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(320): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(321): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(322): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(323): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(309): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(311): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(336): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(337): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(338): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(339): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(342): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(343): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(344): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(345): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(348): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(349): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(350): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(351): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(336): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(337): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(338): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(339): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(342): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(343): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(344): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(345): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(348): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(349): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(350): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(351): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(332): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(334): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(360): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(361): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(362): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(363): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(366): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(367): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(368): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(369): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(360): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(361): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(362): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(363): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(366): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(367): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(368): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(369): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(356): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(358): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(379): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(381): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(440): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(441): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(442): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(443): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(445): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(446): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(447): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(448): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(450): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(451): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(452): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(453): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(455): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(456): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(457): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(458): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(460): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(461): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(462): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(463): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(465): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(466): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(467): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(468): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(472): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(473): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(474): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(475): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(477): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(478): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(479): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(480): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(482): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(483): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(484): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(485): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(487): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(488): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(489): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(490): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(492): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(493): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(494): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(495): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(497): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(498): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(499): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(500): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(440): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(441): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(442): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(443): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(445): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(446): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(447): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(448): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(450): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(451): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(452): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(453): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(455): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(456): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(457): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(458): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(460): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(461): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(462): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(463): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(465): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(466): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(467): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(468): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(472): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(473): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(474): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(475): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(477): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(478): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(479): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(480): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(482): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(483): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(484): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(485): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(487): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(488): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(489): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(490): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(492): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(493): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(494): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(495): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(497): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(498): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(499): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(500): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(427): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(429): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(517): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(518): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(519): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(520): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(522): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(523): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(524): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(525): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(527): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(528): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(529): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(530): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(532): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(533): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(534): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(535): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(537): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(538): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(539): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(540): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(542): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(543): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(544): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(545): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(517): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(518): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(519): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(520): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(522): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(523): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(524): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(525): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(527): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(528): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(529): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(530): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(532): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(533): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(534): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(535): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(537): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(538): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(539): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(540): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(542): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(543): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(544): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(545): warning C26458: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(504): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\srv_store.cpp(506): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\ui.cpp(133): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\ui.cpp(140): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\ui.cpp(147): warning C26823: Dereferencing a possibly null pointer 'p' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\ui.cpp(195): warning C26818: Switch statement does not cover all cases. Consider adding a 'default' label (es.79).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(9): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(14): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(19): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(4): warning C26823: Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\undo.cpp(5): warning C26823: Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).

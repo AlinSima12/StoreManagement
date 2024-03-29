@@ -1,0 +1,3195 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Product', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/produs.h"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 2,
+                  "endLine": 34,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Product::{ctor}",
+                  "decoratedName": "??0Product@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class RepoAbstract', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 11,
+                  "endLine": 27,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepoAbstract::{dtor}",
+                  "decoratedName": "??1RepoAbstract@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Repository::emptyRepo' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 7,
+                  "endLine": 76,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Repository::emptyRepo",
+                  "decoratedName": "?emptyRepo@Repository@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'RepositoryLab::get_prob' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 9,
+                  "endLine": 96,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::get_prob",
+                  "decoratedName": "?get_prob@RepositoryLab@@QEAANXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RepositoryLab::add_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 7,
+                  "endLine": 100,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::add_repo",
+                  "decoratedName": "?add_repo@RepositoryLab@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'lower_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 10,
+                  "endLine": 101,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::add_repo",
+                  "decoratedName": "?add_repo@RepositoryLab@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'upper_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 10,
+                  "endLine": 102,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::add_repo",
+                  "decoratedName": "?add_repo@RepositoryLab@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'a_random_double' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 10,
+                  "endLine": 105,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::add_repo",
+                  "decoratedName": "?add_repo@RepositoryLab@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 75,
+                  "endLine": 108,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::add_repo",
+                  "decoratedName": "?add_repo@RepositoryLab@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RepositoryLab::del_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 7,
+                  "endLine": 117,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::del_repo",
+                  "decoratedName": "?del_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'lower_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 10,
+                  "endLine": 118,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::del_repo",
+                  "decoratedName": "?del_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'upper_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 10,
+                  "endLine": 119,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::del_repo",
+                  "decoratedName": "?del_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'a_random_double' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 10,
+                  "endLine": 122,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::del_repo",
+                  "decoratedName": "?del_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 75,
+                  "endLine": 125,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::del_repo",
+                  "decoratedName": "?del_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RepositoryLab::modify_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 7,
+                  "endLine": 137,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::modify_repo",
+                  "decoratedName": "?modify_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'lower_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 10,
+                  "endLine": 138,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::modify_repo",
+                  "decoratedName": "?modify_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'upper_bound' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 10,
+                  "endLine": 139,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::modify_repo",
+                  "decoratedName": "?modify_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'a_random_double' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 10,
+                  "endLine": 142,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::modify_repo",
+                  "decoratedName": "?modify_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 75,
+                  "endLine": 145,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::modify_repo",
+                  "decoratedName": "?modify_repo@RepositoryLab@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 75
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RepositoryLab::get_produse_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 25,
+                  "endLine": 152,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::get_produse_repo",
+                  "decoratedName": "?get_produse_repo@RepositoryLab@@UEAA?BV?$vector@VProduct@@V?$allocator@VProduct@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RepositoryLab::search_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 10,
+                  "endLine": 160,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::search_repo",
+                  "decoratedName": "?search_repo@RepositoryLab@@UEAA?AVProduct@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'RepositoryLab::emptyRepo' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 7,
+                  "endLine": 164,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RepositoryLab::emptyRepo",
+                  "decoratedName": "?emptyRepo@RepositoryLab@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'FileRepository::add_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 7,
+                  "endLine": 177,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::add_repo",
+                  "decoratedName": "?add_repo@FileRepository@@UEAAXAEBVProduct@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'FileRepository::del_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 7,
+                  "endLine": 182,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::del_repo",
+                  "decoratedName": "?del_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 57,
+                  "endLine": 183,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::del_repo",
+                  "decoratedName": "?del_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 72
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 72,
+                  "endLine": 183,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::del_repo",
+                  "decoratedName": "?del_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 72
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 72
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::del_repo",
+                  "decoratedName": "?del_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 17,
+                  "endLine": 187,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::del_repo",
+                  "decoratedName": "?del_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 182,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 72
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'FileRepository::modify_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 7,
+                  "endLine": 191,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::modify_repo",
+                  "decoratedName": "?modify_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 55,
+                  "endLine": 192,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::modify_repo",
+                  "decoratedName": "?modify_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 191,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 70,
+                  "endLine": 192,
+                  "endColumn": 70
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::modify_repo",
+                  "decoratedName": "?modify_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 191,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 66
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 70
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::modify_repo",
+                  "decoratedName": "?modify_repo@FileRepository@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBH0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 191,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 192,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                          },
+                          "region": {
+                            "startLine": 195,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'FileRepository::get_produse_repo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 25,
+                  "endLine": 203,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::get_produse_repo",
+                  "decoratedName": "?get_produse_repo@FileRepository@@UEAA?BV?$vector@VProduct@@V?$allocator@VProduct@@@std@@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26434",
+          "message": {
+            "text": "Function 'FileRepository::emptyRepo' hides a non-virtual function 'Repository::emptyRepo'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 7,
+                  "endLine": 214,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FileRepository::emptyRepo",
+                  "decoratedName": "?emptyRepo@FileRepository@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'AddUndoAction::do_undo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 10,
+                  "endLine": 21,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddUndoAction::do_undo",
+                  "decoratedName": "?do_undo@AddUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class AddUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 10,
+                  "endLine": 21,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AddUndoAction::do_undo",
+                  "decoratedName": "?do_undo@AddUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'ModUndoAction::do_undo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 10,
+                  "endLine": 36,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ModUndoAction::do_undo",
+                  "decoratedName": "?do_undo@ModUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class ModUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 10,
+                  "endLine": 36,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ModUndoAction::do_undo",
+                  "decoratedName": "?do_undo@ModUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'RemoveUndoAction::do_undo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 10,
+                  "endLine": 49,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RemoveUndoAction::do_undo",
+                  "decoratedName": "?do_undo@RemoveUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class RemoveUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 10,
+                  "endLine": 49,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RemoveUndoAction::do_undo",
+                  "decoratedName": "?do_undo@RemoveUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 5,
+                  "endLine": 58,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ComplexUndoAction::{ctor}",
+                  "decoratedName": "??0ComplexUndoAction@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26433",
+          "message": {
+            "text": "Function 'ComplexUndoAction::do_undo' should be marked with 'override' (c.128)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 10,
+                  "endLine": 62,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ComplexUndoAction::do_undo",
+                  "decoratedName": "?do_undo@ComplexUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class ComplexUndoAction' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 10,
+                  "endLine": 62,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ComplexUndoAction::do_undo",
+                  "decoratedName": "?do_undo@ComplexUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(*result.top)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 13,
+                  "endLine": 64,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ComplexUndoAction::do_undo",
+                  "decoratedName": "?do_undo@ComplexUndoAction@@UEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'p' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 59,
+                  "endLine": 133,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ui::sort_ui",
+                  "decoratedName": "?sort_ui@Ui@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 133,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'p' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 59,
+                  "endLine": 140,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ui::print_all_ui",
+                  "decoratedName": "?print_all_ui@Ui@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'p' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 59,
+                  "endLine": 147,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ui::show_cart_ui",
+                  "decoratedName": "?show_cart_ui@Ui@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26818",
+          "message": {
+            "text": "Switch statement does not cover all cases. Consider adding a 'default' label (es.79)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 4,
+                  "endLine": 195,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ui::menu_store",
+                  "decoratedName": "?menu_store@Ui@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Product::price' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/produs.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 2,
+                  "endLine": 19,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Product::{ctor}",
+                  "decoratedName": "??0Product@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Product::price"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/produs.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d8349d2ae8b3bc94d5f5fb7f6504bd0105b50de68bd2368011f75099f0f0d463"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/repo_store.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e148d0eb01fd0a2a7270ddefd3d6dd8f49344f01e7167fc9470f4c5ea2909a46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/undo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a2e204ed661669be4362fe18a94edd98e8be9b02294610652ce1ee1332658b1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/ui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6a03255e17910614b4b45ffc647662079351be11d143c029bef48d51c1642697"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/info/an1/sem2/oop/lab/lab6-7/magazin/ui.h"
+          },
+          "hashes": {
+            "sha-256": "b319830c623a10030a2cdb42e48ee4f1714a25e59953cc12a910626af3fbea44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/info/an1/sem2/oop/lab/lab6-7/magazin/srv_store.h"
+          },
+          "hashes": {
+            "sha-256": "3f3d3fbb63efa16a2c27a202d593983331970daa0b4b5afe59f43360816fd8fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/info/an1/sem2/oop/lab/lab6-7/magazin/my_list.h"
+          },
+          "hashes": {
+            "sha-256": "e318508383d9c7b379b7fdeedfa014f88956bf9d4bff6ee5c4e23f243711838f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/info/an1/sem2/oop/lab/lab6-7/magazin/cos.h"
+          },
+          "hashes": {
+            "sha-256": "41751a209eb4caf8674630dad43ebe80f1140cf8b6ef794273754b66dc764716"
+          }
+        }
+      ]
+    }
+  ]
+}

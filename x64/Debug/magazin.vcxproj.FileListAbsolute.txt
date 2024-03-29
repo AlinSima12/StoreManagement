@@ -1,0 +1,3 @@
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug\magazin.exe
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug\magazin.exe.lastcodeanalysissucceeded
+C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug\NativeCodeAnalysis.read.1.tlog

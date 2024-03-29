@@ -1,0 +1,3330 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Product', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/produs.h"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 2,
+                  "endLine": 34,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Product::{ctor}",
+                  "decoratedName": "??0Product@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'Cos::empty_cos' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 11,
+                  "endLine": 20,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Cos::empty_cos",
+                  "decoratedName": "?empty_cos@Cos@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'p' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 81,
+                  "endLine": 35,
+                  "endColumn": 95
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Cos::save_cart",
+                  "decoratedName": "?save_cart@Cos@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 82
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 2,
+                  "endLine": 45,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 2,
+                  "endLine": 46,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 2,
+                  "endLine": 47,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 2,
+                  "endLine": 48,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 2,
+                  "endLine": 45,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 2,
+                  "endLine": 46,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 2,
+                  "endLine": 47,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 2,
+                  "endLine": 48,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_add_cos",
+                  "decoratedName": "?test_add_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 2,
+                  "endLine": 55,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 2,
+                  "endLine": 56,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 2,
+                  "endLine": 57,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 2,
+                  "endLine": 58,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 2,
+                  "endLine": 55,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 2,
+                  "endLine": 56,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 2,
+                  "endLine": 57,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26458",
+          "message": {
+            "text": "Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 2,
+                  "endLine": 58,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.11' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.12' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.13' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "test_del_cos",
+                  "decoratedName": "?test_del_cos@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/produs.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d8349d2ae8b3bc94d5f5fb7f6504bd0105b50de68bd2368011f75099f0f0d463"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Info/AN1/SEM2/OOP/lab/lab6-7/magazin/cos.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "974b9cb7d9407901ebf5fda83e15b5de7a83eda4627258b40758db23f3f75281"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/info/an1/sem2/oop/lab/lab6-7/magazin/cos.h"
+          },
+          "hashes": {
+            "sha-256": "41751a209eb4caf8674630dad43ebe80f1140cf8b6ef794273754b66dc764716"
+          }
+        }
+      ]
+    }
+  ]
+}
