@@ -1,0 +1,22 @@
+[2023-05-19 13:02:16] [info] Start Program:
+Path:"C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug\magazin.exe"
+Arguments:
+Working directory: "C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\"
+Modules: Selected: C:\Users\simaa\OneDrive\Desktop 3\magazin\x64\Debug\magazin.exe Excluded: 
+Sources: Selected: C:\Users\simaa\OneDrive\Desktop 3\magazin Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\simaa\AppData\Local\Temp\5ybvron1.xd5 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-19 13:02:21] [info] ----------------------------------------------------
+[2023-05-19 13:02:21] [info] Coverage binary generated in file: C:\Users\simaa\AppData\Local\Temp\5ybvron1.xd5
+[2023-05-19 13:02:21] [info] ----------------------------------------------------
+[2023-05-19 13:02:21] [warning] No modules were selected. Please check the values of --modules and --excluded_modules.
+You can try to remove all --modules and --excluded_modules and use --modules=C:\Info\AN1\SEM2\OOP\lab\lab6-7\magazin\x64\Debug instead.
